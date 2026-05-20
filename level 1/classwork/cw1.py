@@ -1,0 +1,5 @@
+print("hello world")
+print("davit")
+print("tsikarishvili")
+print("rustavi")
+print(14)
