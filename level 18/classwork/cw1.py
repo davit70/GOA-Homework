@@ -19,4 +19,5 @@ print("dog". upper())
 print('CAT'. lower())
 print('animal'. capitalize())
 
+print("hello world".find("l"))
 
