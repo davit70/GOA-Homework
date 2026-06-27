@@ -21,9 +21,3 @@
 
 
 
-log_record = ">ERROR: user MARIAM@COMPANY.GE failed to load the backup file. #backup #Server #backup #urgent"
-print(log_record.startswith('>ERROR:'))
-print(log_record.endswith('#urgent'))
-print(log_record.count('#backup'))
-print(log_record.find('failed'))
-print(log_record.find('@'))
