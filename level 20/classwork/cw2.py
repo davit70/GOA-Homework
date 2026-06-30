@@ -21,3 +21,13 @@
 
 
 
+log_record = ">ERROR: user MARIAM@COMPANY.GE failed to load the backup file. #backup #Server #backup #urgent"
+print(log_record.startswith('>ERROR:'))
+print(log_record.endswith('#urgent'))
+print(log_record.count('#backup'))
+print(log_record.find('failed'))
+print(log_record.find('@'))
+worlds_list = log_record.split()
+print(worlds_list[7].upper())
+print(worlds_list[2].lower())
+print(worlds_list[2].lower().split('@')[0].capitalize())
