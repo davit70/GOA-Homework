@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    background-color: white;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    color: green;
+    font-size: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    color: red;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
