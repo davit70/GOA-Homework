@@ -1,0 +1,44 @@
+.main h1 {
+    color: green;
+}
+
+.main .inside p {
+    background-color: yellow;
+}
+
+
+
+.box {
+    color: blue;
+  
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+
+#section {
+    background-color: lightblue;
+}
+
+.b1 {
+    background-color: blue;
+    color: white;
+}
+
+.b2 {
+    background-color: gray;
+    color: white;
+}
+
+
+
+.text {
+    color: blue;
+}
+
+#hello {
+    color: red;
+}
