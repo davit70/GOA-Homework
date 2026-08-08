@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+header {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 45px;
+    
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #fca311;
+    text-align: center;
+    
+}
+
+nav a {
+    color: #14213d;
+    
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: white;
+}
+
+.box {
+    background-color: white;
+    width: 90%;
+}
+
+.box h2 {
+    font-size: 30px;
+  
+}
+
+.card {
+
+    width: 30%;
+    background-color: #e5e5e5;
+}
+
+.card h3 {
+    color: #14213d;
+}
+
+
+button {
+    background-color: #fca311;
+    color: #14213d;
+}
+
+button:hover {
+    background-color: #14213d;
+    color: white;
+}
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+
+}
+
