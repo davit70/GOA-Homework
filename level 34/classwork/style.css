@@ -1,0 +1,33 @@
+#yt:link {
+    color:white;
+    background-color: red;
+
+}
+
+
+
+#fb:hover {
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#git:active {
+    background-color: black;
+    color: white;
+}
+
+
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+
+}
+
+th {
+  background-color: lightgray;
+}
