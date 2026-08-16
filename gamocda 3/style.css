@@ -1,0 +1,112 @@
+#myH1 {
+    text-align: right; color: green; font-family: monospace; font-size: 100px;
+}
+
+
+
+#bo {
+    background-color: rgb(100, 100, 100); 
+}
+
+
+
+#myP {
+    color: darkblue; font-family: monospace; font-size: 50px; background-color: gray;
+    text-decoration: dotted underline blue;
+}
+
+
+#myP2 {
+    color: green; font-family: monospace; font-size: 50px; background-color: darkgray;
+
+}
+
+
+
+#sports {
+    color: green;  text-decoration: dashed overline underline darkblue; font-size: 40px;
+}
+
+#body {
+    background-color: greenyellow;
+}
+
+
+
+#h {
+    text-align: center; color: darkgreen; border: dashed 2px white; 
+}
+
+
+
+#p2 {
+    color: darkgreen; font-size: 50px; 
+}
+
+
+#a {
+    text-align: center; font-size: 50px;
+}
+
+
+#BODY3 {
+    background-color: orange;
+}
+
+#myH {
+    text-align: center; font-size: 100px; border: 3px solid black; 
+}
+
+
+#pp {
+    font-size: 50px; font-family: monospace;
+}
+
+
+
+#a2 {
+    text-align: center; font-size: 50px;
+}
+
+
+
+
+
+#bodyy {
+    background-color: rgb(181, 237, 227);
+}
+
+#hh {
+    text-align: center; border: double black 5px; font-size: 100px;
+}
+
+
+
+#w {
+    font-size: 50px; font-family: monospace; color: rgb(255, 0, 0);
+}
+
+
+
+#nav {
+    text-align: center; font-size: 50px;
+}
+
+#bodyyy {
+    background-color: rgb(188, 131, 56);
+}
+
+
+#hhh {
+    text-align: center; font-size: 100px; text-decoration: double overline underline black;
+}
+
+
+
+#ppp {
+    font-size: 50px; font-family: monospace;
+}
+
+#navv {
+    text-align: center; font-size: 50px;
+}
