@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.card {
+    width: 320px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.tabs {
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.btn-left {
+    width: 48%;
+    height: 36px;
+    border: none;
+    background: transparent;
+    color: #333333;
+    cursor: pointer;
+}
+
+.btn-right {
+    width: 50%;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: #0052cc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input {
+    width: 85%;
+    height: 36px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+}
+
+.submit {
+    width: 88%;
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    background: #004080;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+p {
+    color: #555555;
+    font-size: 14px;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
