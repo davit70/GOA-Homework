@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#myP {
+
+    padding-top:  50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none red solid;
+    margin: 50px;
+}
