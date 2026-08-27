@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+    
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: lightgreen;
+}
+
+section {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: green;
+}
+
+ul {
+    line-height: 2;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

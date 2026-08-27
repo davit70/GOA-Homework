@@ -1,0 +1,11 @@
+.box1 {
+    background-color: lightblue;
+    margin: 30px;
+    padding: 20px;
+}
+
+.box2 {
+    background-color: lightgreen;
+    margin: 50px 20px;
+    padding: 30px 15px;
+}
