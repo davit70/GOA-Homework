@@ -1,0 +1,36 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.container {
+
+  display: flex;
+  flex-direction: column;    
+  justify-content: flex-start; 
+  align-items: stretch;      
+  
+  gap: 15px;                 
+  padding: 20px;
+  border: 2px dashed #888;    
+}
+
+.container p {
+  height: 60px;
+  background-color: #4C75F2; 
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;                 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+body {
+    text-align: right;
+}

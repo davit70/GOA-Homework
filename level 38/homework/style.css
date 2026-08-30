@@ -1,0 +1,27 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;        
+  justify-content: flex-start; 
+  align-items: center;        
+  gap: 15px;                  
+  padding: 20px;
+  border: 2px dashed #000;  
+}
+
+.container p {
+  width: 60px;
+  height: 60px;
+  background-color: #4C75F2; 
+  font-size: 24px;
+  margin: 0;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}

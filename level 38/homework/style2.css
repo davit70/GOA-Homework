@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  padding: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.yellow { background: #ffc107; }
+.blue   { background: #007bff; color: white; }
+.green  { background: #28a745; }
