@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#pos {
+    width: 300px;
+    height: 300px;
+    background-color: #E31238;
+}
+
+.size {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#yellow {
+    background-color:#FFFF00 ;
+    position: relative;
+
+
+    left: 200px;
+}
+
+
+#cyan {
+    background-color: #00FFFF;
+}
+
+
+#purp {
+    background-color: #800080;
+    position: relative;
+    left: 100px;
+}
