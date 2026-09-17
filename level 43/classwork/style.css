@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+
+
+#head {
+    width: 100%;
+    height: 50px;
+    position:fixed;
+    top: 0px;
+    background-color: gray;
+  
+  
+    
+}
+
+
+
+
+#img {
+    width: 642px;
+    height: 350px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPf_062JKWOBQr9rKxfyjLtlwzCn6Wwx_fJ6vQDIAgQ&s=10");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
