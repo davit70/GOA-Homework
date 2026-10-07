@@ -1,0 +1,7 @@
+4)კომენტარების სახით ახსენით რა დანიშნულება აქვს grid-column-start; grid-column-end; grid-row-start; grid-row-end; - ს
+
+
+grid-column-start; ით მივუთითებთ თუ საიდან უნდა დაიწყოს სვეტი grid-column-end; გამოიყენება სვეტის დასასრულის მისაითებლად
+
+
+grid-row-end; ით მივუთითებთ რიგის დასაწყისს ხოლო grid-row-end; ით მის დასასრულს 
