@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #ffffff;
+    
 }
 
 #maindiv {
@@ -24,7 +24,6 @@ body {
 .divs {
     background-color: #8dbd18;
     padding: 20px;
-    font-size: 1.2rem;
     font-weight: 500;
 }
 
