@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#maindiv {
+
+    width: 1000px;
+    background-color: black;
+
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.column {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
+
+

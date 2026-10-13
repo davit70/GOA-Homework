@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 1200px;
+    height: 1200px;
+    background-color: rgb(3, 65, 65);
+    display: grid;
+    grid-template-rows: 100px 100px 100px ;
+    gap: 50px;
+
+}
+
+.rows {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

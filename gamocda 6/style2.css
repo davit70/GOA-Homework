@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    background-color: purple;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    
+
+    
+}
+
+
+
+
+
+
+.heading {
+    color: greenyellow;
+    font-family: monospace;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+
+
+#top:hover {
+    background-color: purple;
+}
+
+#free:hover {
+    background-color: purple;
+}
+
+
+#ad {
+    width: 300px;
+    height: 1000px;
+    border-radius: 25px;
+    background-image: url(https://media.forgecdn.net/avatars/thumbnails/641/352/256/256/638043417933656861.png);
+    background-size:300px 1000px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+#idk {
+    display: flex;
+    display: grid;
+    grid-template-columns: 200px 100px 700px 100px 100px;
+}
+
+
+
+
+#Minecraft{
+    width: 500px;
+    height: 500px;
+    border: greenyellow 2px;
+    border-radius: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgplKCJvHqgbtXtE7n2Tqh_AByU3kCi-fwfuUDEpx_gQ&s);
+    background-size: 500px 500px;
+    
+    align-self: self-end;
+    
+
+    
+}
+
+
+
+#mc {
+    margin-left: 100px;
+    align-self: center;
+    margin-bottom: 100px;
+    font-size: 100px;
+    color: green;
+    
+}
+
+#mc:hover {
+    background-color: greenyellow;
+    color: orange;
+}
+
+
+#gap {
+    height: 1000px;
+    width: 2px;
+    border: 1px lightgray solid;
+    border-radius: 40px;
+    background-color: lightgray;
+    
+}
+
+
+#ad2 {
+    height: 1000px;
+    width: 700px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-a-8DVzZI07SIAn2c6GbyqjlhqapaAI-ZuNcYe7Vk4Q&s=10);
+
+    background-size:1000px 700px ;
+}
+
+#GTA5 {
+    font-size: 100px;
+    justify-self: flex-start;
+    margin-left: 1200px;
+    color: goldenrod;
+}
+
+#GTA5:hover {
+    background-color: greenyellow;
+    color: orange;
+    border-radius: 20px;
+}
