@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#skew {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+
+}
+
+
+#skew:hover {
+    transform: skewX(30deg) skewY(45deg);
+}

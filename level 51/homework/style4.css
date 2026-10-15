@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#rotate {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+   
+
+}
+
+
+#rotate:hover {
+    transform: rotate(125deg);
+}
