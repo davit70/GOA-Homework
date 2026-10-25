@@ -1,0 +1,47 @@
+
+body {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: orange;
+}
+
+.div1 {
+    background-color: darkred;
+    padding: 30px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.div1:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+#div2 {
+    background-color: darkblue;
+    padding: 30px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+#div2:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.div3 {
+    background-color: darkgreen;
+    padding: 30px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.div3:hover {
+    background-color: green;
+    transform: scale(1.05);
+}
