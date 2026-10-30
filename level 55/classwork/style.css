@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    height: 100vh;
+}
+
+#main {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    margin-top: 500px;
+    margin-left: 200px;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+
+
+
+
+}
+
+
+
+#perf {
+   
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    
+
+}
+
+
+img {
+    height: 300px;
+    margin-left: 300px;
+    border-radius: 5px 0px 0px 5px;
+    
+
+}
+
+
+#title {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+
+    font-family: "Fraunces" ;
+    font-weight: 700;
+    font-size: 20px;
+
+    
+}
+
+
+
+#main2 {
+    height: 300px;
+    background-color: white;
+    width: 200px ;
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+
+#abt {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+}
+
+
+
+
+#price {
+    color: hsl(158, 36%, 37%) ;
+    font-size: 30px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 12px;
+    
+}
+
+
+#price2 {
+    color: hsl(228, 12%, 48%);
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    text-decoration: line-through;
+}
+
+
+
+
+button {
+    background-color: hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+    height: 40px;
+    text-align: center;
+    width: 170px;
+    color: white;
+    font-family: "Montserrat" ;
+    margin-left: 20px ;
+    font-weight: 700;
+
+    
+
+
+}
+
+
+#img2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 300px;
+    bottom: 17px;
+}

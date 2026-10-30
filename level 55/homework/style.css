@@ -1,0 +1,100 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  width: 380px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+  transition: box-shadow 0.3s;
+}
+
+
+#card:hover {
+  box-shadow: 16px 16px 0px hsl(0, 0%, 7%);
+}
+
+
+#img1 {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+}
+
+#learning {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+#publ {
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+
+#idk {
+  color: hsl(0, 0%, 7%);
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+#idk:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+
+#lang {
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+
+#author {
+  display: flex;
+  align-items: center;
+}
+
+
+#img2 {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+
+#name {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 14px;
+}
