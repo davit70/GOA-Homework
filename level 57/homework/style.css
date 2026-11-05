@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#idk {
+    background-color: rgb(8, 136, 255);
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+#circle {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    margin-left: 20px;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 5s;
+    
+}
+
+
+
+
+
+@keyframes circle {
+
+    100% {
+        margin-left: 390px;
+    }
+}

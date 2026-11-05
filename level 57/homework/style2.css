@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#idk {
+    background-color: rgb(8, 136, 255);
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+#circle {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    margin-top: 20px;
+    animation-name: idk;
+    animation-duration: 5s;
+
+}
+
+
+
+
+@keyframes idk {
+    100% {
+        margin-top: 390px;
+    }
+}
+
