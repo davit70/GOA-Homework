@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#example {
+    height: 900px;
+    width: 900px;
+    background-color: blue;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.grid {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
