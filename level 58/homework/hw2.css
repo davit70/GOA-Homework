@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ;
+    background-color: purple;
+    animation: scale 2s infinite;
+
+}
+
+
+
+@keyframes  scale {
+    0% {
+        transform: scale(1);
+    }
+
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    
+}
