@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+#top {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+#bottom {
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+}
+
+
+#card {
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+#background {
+  height: 140px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#background img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#victor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -50px;
+}
+
+
+#name {
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(229, 23%, 23%);
+  margin-top: 15px;
+}
+
+#age {
+  font-weight: normal;
+  color: hsl(227, 10%, 46%);
+}
+
+#London {
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+
+#line {
+  height: 1px;
+  background-color: hsl(225, 10%, 92%);
+  width: 100%;
+}
+
+
+#social {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(229, 23%, 23%);
+}
+
+.label {
+  font-size: 11px;
+  color: hsl(227, 10%, 46%);
+  margin-top: 5px;
+}
